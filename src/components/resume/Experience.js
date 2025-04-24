@@ -5,13 +5,13 @@ import { motion } from 'framer-motion'
 
 function Experience() {
     return (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: .5 } }} className='flex w-full gap-20'>
-            <div className='w-1/2'>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: .5 } }} className='grid lg:grid-cols-2 grid-cols-1 w-full gap-20'>
+            <div className=''>
                 <div className='py-12 font-titlefont'>
                     <p className='text-sm text-designcolor tracking-[4px]'>1998 - 2010</p>
                     <h2 className='text-4xl font-bold mt-3'>Company Experience</h2>
                 </div>
-                <div className='mt-8  h-[1000px] border-l-[6px] border-black border-opacity-30 flex flex-col gap-10'>
+                <div className='mt-8  lg:h-[1000px] border-l-[6px] border-black border-opacity-30 flex flex-col gap-10'>
                     <ResumeCard
                         title="Bachelor's Degree"
                         subtitle="University of DVI (2006 - 2010)"
@@ -34,12 +34,12 @@ function Experience() {
 
                 </div>
             </div>
-            <div className='w-1/2'>
+            <div className=''>
                 <div className='py-12 font-titlefont'>
                     <p className='text-sm text-designcolor tracking-[4px]'> 2010 - 2022</p>
                     <h2 className='text-4xl font-bold mt-3'>Job Experience</h2>
                 </div>
-                <div className='mt-8  h-[1000px] border-l-[6px] border-black border-opacity-30 flex flex-col gap-10'>
+                <div className='mt-8  lg:h-[1000px] border-l-[6px] border-black border-opacity-30 flex flex-col gap-10'>
                     <ResumeCard
                         title="Master's Degree"
                         subtitle="Global Institute of Technology (2010 - 2012)"

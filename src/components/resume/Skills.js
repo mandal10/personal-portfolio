@@ -5,8 +5,8 @@ import { motion } from 'framer-motion'
 
 function Skills() {
     return (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: .5 } }} className='flex w-full gap-20'>
-            <div className='w-1/2'>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: .5 } }} className='grid lg:grid-cols-2 grid-cols-1 w-full gap-20'>
+            <div className=''>
                 <div className='py-12 font-titlefont'>
                     <p className='text-sm text-designcolor tracking-[4px]'>Features</p>
                     <h2 className='text-4xl font-bold mt-3'>Design Skill</h2>
@@ -79,7 +79,7 @@ function Skills() {
                 </div>
             </div>
 
-            <div className='w-1/2'>
+            <div className=''>
                 <div className='py-12 font-titlefont'>
                     <p className='text-sm text-designcolor tracking-[4px]'>Features</p>
                     <h2 className='text-4xl font-bold mt-3'>Development Skill</h2>

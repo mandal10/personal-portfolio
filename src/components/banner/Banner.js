@@ -4,7 +4,7 @@ import RightBanner from './RightBanner';
 function Banner() {
 
     return (
-        <section id='home' className='w-full  pt-20 pb-20 gap-20 flex  justify-between border-b border-black font-titlefont  px-16'>
+        <section id='home' className='w-full h-full  py-20  gap-20 flex flex-col lgl:flex-row lgl:justify-between border-b border-black font-titlefont  lgl:px-16 sm:px-10 px-5'>
             <LeftBanner />
             <RightBanner />
 

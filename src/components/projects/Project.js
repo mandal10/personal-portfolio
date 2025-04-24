@@ -7,11 +7,11 @@ import ProjectsCard from './ProjectsCard'
 
 function Project() {
     return (
-        <section id="projects" className='w-full  py-20  border-b border-black  px-16'>
+        <section id="projects" className='w-full  py-20  border-b border-black  lgl:px-16 sm:px-10 px-5'>
             <div className='text-center '>
                 <Title title='VISIT MY PORTFOLIO AND KEEP YOR FEEDBACK' des='my Projects' />
             </div>
-            <div className='grid grid-cols-3 gap-10 '>
+            <div className='grid lgl:grid-cols-3 grid-cols-1 mdl:grid-cols-2 gap-10 '>
                 <ProjectsCard
                     title="Social Media Clone"
                     des="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."

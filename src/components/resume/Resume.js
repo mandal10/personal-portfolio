@@ -13,12 +13,12 @@ function Resume() {
     const [achievementData, setAchievementData] = useState(false);
 
     return (
-        <section id="resume" className='w-full  py-20  border-b border-black  px-16'>
+        <section id="resume" className='w-full  py-20  border-b border-black  lgl:px-16 sm:px-10 px-5'>
             <div className='text-center '>
                 <Title title='7+ Years of Experience' des='My Resume' />
             </div>
             <div>
-                <ul className='w-full grid grid-cols-4 '>
+                <ul className='w-full grid lgl:grid-cols-4 grid-cols-1 mdl:grid-cols-2 '>
                     <li onClick={() =>
                         setEducationData(true) &
                         SetSkillData(false) &

@@ -95,10 +95,10 @@ function ContactRight() {
     };
 
     return (
-        <div className='w-[60%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-lg p-8 flex flex-col gap-8 justify-center'>
+        <div className='lgl:w-[60%] w-full h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-lg lgl:p-8 p-3 flex flex-col gap-8 justify-center'>
             <form className='w-full flex flex-col gap-6 py-2' onSubmit={handleSubmit}>
-                <div className='w-full flex gap-10'>
-                    <div className='w-1/2 flex flex-col gap-4'>
+                <div className='w-full flex flex-col md:flex-row gap-10'>
+                    <div className='md:w-1/2 w-full flex flex-col gap-4'>
                         <p className='text-sm text-gray-400 uppercase tracking-wide'>YOUR NAME</p>
                         <input
                             type='text'
@@ -109,7 +109,7 @@ function ContactRight() {
                         />
                         {errors.name && <p className='text-red-500 text-sm'>{errors.name}</p>}
                     </div>
-                    <div className='w-1/2 flex flex-col gap-4'>
+                    <div className='md:w-1/2 w-full flex flex-col gap-4'>
                         <p className='text-sm text-gray-400 uppercase tracking-wide'>Phone Number</p>
                         <input
                             type='text'

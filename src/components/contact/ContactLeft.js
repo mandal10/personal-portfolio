@@ -5,7 +5,7 @@ import { FaLinkedin } from 'react-icons/fa6'
 
 function ContactLeft() {
     return (
-        <div className='w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-lg p-8 flex flex-col gap-8 justify-center'>
+        <div className='lgl:w-[35%] w-full h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-lg lgl:p-8 p-3 flex flex-col gap-8 justify-center'>
             <img src={contactImg} alt='contactImg' className='w-full h-64 object-cover rounded-lg ' />
             <div className='flex flex-col gap-4'>
                 <h3 className='text-3xl font-bold text-white'>John Doe</h3>

@@ -6,6 +6,8 @@ export default {
   ],
   theme: {
     extend: {
+
+
       fontFamily: {
         bodyfont: ['Poppins', 'sans-serif'],
         titlefont: ['Montserrat', 'sans-serif'],

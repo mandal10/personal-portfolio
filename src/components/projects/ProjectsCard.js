@@ -4,7 +4,7 @@ import { FaGithub, FaGlobe } from 'react-icons/fa';
 
 function ProjectsCard({ title, des, src }) {
     return (
-        <div className='w-full  px-10 py-10 rounded-lg shadow-lg  bg-gradient-to-r from-bodycolor to-[#202327] group
+        <div className='w-full  lg:px-10 px-3 py-10 rounded-lg shadow-lg  bg-gradient-to-r from-bodycolor to-[#202327] group
           hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024]  transition-colors duration-1000'>
             <div className='w-full  overflow-hidden rounded-lg '>
                 <img className='w-full h-60 object-cover group-hover:scale-110 cursor-pointer duration-300' src={src} alt='src' />

@@ -5,7 +5,7 @@ import { FaLinkedin } from 'react-icons/fa6'
 
 function Footer() {
     return (
-        <div className='grid grid-cols-4 gap-8 w-full py-20 h-96  border-black border-b px-16'>
+        <div className='grid lgl:grid-cols-4  sm:grid-cols-2 grid-cols-1  gap-8 w-full py-20   border-black border-b lgl:px-16 sm:px-10 px-5'>
             <div className='w-full h-full flex flex-col gap-8'>
                 <img className='w-32' src={logo} alt='logo' />
                 <div className='flex gap-4 '>
